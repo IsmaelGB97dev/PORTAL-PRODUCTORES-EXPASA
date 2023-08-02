@@ -1,0 +1,198 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap&subset=latin-ext');
+
+/* Modify the backgorund color */
+/*.bg-light {
+    color: white;
+    background-color: #006340;
+}*/
+
+
+    /* Modify brand and text color */
+    .navbar-custom .navbar-brand,
+    .navbar-custom .bg-light
+    .navbar-custom .navbar-text {
+        color: #006340;
+    }
+
+#Vc {
+    background-color: rgb(0,99,65);
+    color: #006340;
+}
+
+#divTasaCambio {
+    background-color: rgb(0,99,65);
+    color: #006340;
+    margin-left: 0px;
+    text-align: center;
+    position: relative;
+    max-width: 175px;
+}
+
+#lblTasaCambio {
+    padding-top: 10px;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+
+.divbg {
+    /*width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 184, 148,.5);
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/Imagenes/banner/banner2.png");
+    /*text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.divbgAlt {
+    /*width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 184, 148,.5);
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;*/
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("/assets/dist/img/HnCf1.jpg");
+    /*display: flex;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    /*font-weight: bold;*/
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+    padding: 10%;
+    text-align: justify;
+    font-family: 'Poppins';
+    font-size: 150%;
+}
+
+/*input {
+    border: none;
+    background-color: transparent;
+}
+
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+        outline: none;
+    }*/
+
+hr {
+    border: 2px solid #006340;
+    border-radius: 5px;
+}
+
+footer {
+    display: block;
+    background-color: #795548;
+    color: #FFFFFF;
+}
+
+
+.Total {
+    background-color: #e74c3c;
+    padding: 8px;
+    width: 90px;
+}
+
+#generateBtn {
+    background-color: #006340;
+    border-color: #006340;
+}
+
+@media only screen and (max-width: 415px) {
+    .container-fluid {
+        padding-top: 15%;
+    }
+
+    #frmLogin_UserName {
+        width: 400%;
+    }
+
+    #frmLogin_Password {
+        width: 400%;
+    }
+
+    #frmLogin_LoginImageButton {
+        width: 400%;
+    }
+}
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 150px;
+}
+/*@media only screen and (max-width: 1200px) {
+    body {
+        padding-top: 1%;
+    }
+}*/
+/*Grid*/
+/*Grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.4fr 1.7fr 1fr 1fr;
+    grid-template-rows: 1.1fr 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "Nosotros Nosotros Nosotros Nosotros" "Vision Vision Mision Mision" "Valores Valores Valores Valores" "Contacto Contacto Contacto Contacto" "Footer Footer Footer Footer";
+}
+
+.Nosotros {
+    grid-area: Nosotros;
+}
+
+.Vision {
+    grid-area: Vision;
+}
+
+.Mision {
+    grid-area: Mision;
+}
+
+.Valores {
+    grid-area: Valores;
+}
+
+.Contacto {
+    grid-area: Contacto;
+}
+
+.Footer {
+    grid-area: Footer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Managua"
+    "Matagalpa"
+    "Jinotega"
+    "Ocotal";
+}
+.Managua { grid-area: Managua; }
+.Matagalpa { grid-area: Matagalpa; }
+.Jinotega { grid-area: Jinotega; }
+.Ocotal { grid-area: Ocotal; }
